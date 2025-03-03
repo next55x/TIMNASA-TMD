@@ -28,7 +28,7 @@ async function loading(dest, zk) {
     "⬜⬜⬛⬛⬛⬛⬜⬜꧁60%꧂",
     "⬜⬜⬜⬜⬛⬛⬛⬛꧁80%꧂",
     "⬛⬛⬜⬜⬜⬜⬛⬛꧁100%꧂",
-    "* 𝚃𝙸𝙼𝙽𝙰𝚂𝙰-𝙸𝚂-𝟿𝟿𝟿𝟿𝟿𝟿𝟿𝟿-𝚂𝙿𝙴𝙴𝙳⚔️🗡️*"
+    "* 𝚃𝙸𝙼𝙽𝙰𝚂𝙰-𝙸𝚂-𝟿𝟿𝟿𝟿𝟿𝟿𝟿𝟿-ping-𝚂𝙿𝙴𝙴𝙳*"
   ];
 
   let { key } = await zk.sendMessage(dest, { text: 'Loading Please Wait' });
@@ -40,10 +40,10 @@ async function loading(dest, zk) {
 }
 
 zokou({
-  nomCom: "alive1",
+  nomCom: "alive",
   aliases: ["alive", "testing"],
   categorie: "system",
-  reaction: "⚔️"
+  reaction: "💸"
 }, async (dest, zk, commandeOptions) => {
   const { ms } = commandeOptions;
 
