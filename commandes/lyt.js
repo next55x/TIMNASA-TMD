@@ -3,7 +3,7 @@ const axios = require("axios");
 
 // Define the command with aliases
 zokou({
-  nomCom: "lyrics",
+  nomCom: "lyrics𝟸",
   aliases: ["mistari", "lyric"],
   reaction: '🧚',
   categorie: "search"
