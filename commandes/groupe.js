@@ -37,7 +37,7 @@ zokou({ nomCom: "tagall", categorie: 'Group', reaction: "📣" }, async (dest, z
   tag +=`
   
 ╭─────────────────━┈⊷ 
-│✌️ MR-B.M.B 𝙈𝘿 𝙏𝘼𝙂𝙎
+│✌️ 𝐓𝐈𝐌𝐍𝐀𝐒𝐀-𝐊𝐈𝐍𝐆 𝐓𝐀𝐆𝐀𝐋𝐋
 ╰─────────────────━┈⊷ \n
 │⭕ *Group*.     : ${nomGroupe} 
 │⭕ *Hey😀*.     : *${nomAuteurMessage}* 
@@ -50,7 +50,7 @@ zokou({ nomCom: "tagall", categorie: 'Group', reaction: "📣" }, async (dest, z
 
 
 
-  let emoji = ['🦴', '👀', '😮‍💨', '❌', '✔️', '😇', '⚙️', '🔧', '🎊', '😡', '🙏🏿', '✌️️', '$','😟','🥵','🐅']
+  let emoji = ['🚀', '💙', '😮‍💨', '❌', '✔️', '😇', '⚙️', '🇹🇿', '🎊', '🧭', '🙏🏿', '✌️️', '$','😟','❤️','🐅']
   let random = Math.floor(Math.random() * (emoji.length - 1))
 
 
@@ -78,7 +78,7 @@ zokou({ nomCom: "link", categorie: 'Group', reaction: "🤙" }, async (dest, zk,
 
   let mess = `hello ${nomAuteurMessage} , here is the group link for ${nomGroupe} \n
 
-Group link :${lien} \n\n©𝒉𝒂𝒏𝒔 𝐦𝐝 𝐬𝐜𝐢𝐞𝐧𝐜𝐞`
+Group link :${lien} \n\n©𝚃𝙸𝙼𝙽𝙰𝚂𝙰-𝙼𝙳 𝙲𝙻𝙸𝙲𝙺 𝙷𝙴𝚁𝙴👇`
   repondre(mess)
 
 
@@ -601,7 +601,7 @@ zokou({ nomCom: "gpp", categorie: 'Group' }, async (dest, zk, commandeOptions) =
 });
 
 /////////////
-zokou({nomCom:"hidetag",categorie:'Group',reaction:"🎤"},async(dest,zk,commandeOptions)=>{
+zokou({nomCom:"htag",categorie:'Group',reaction:"🎤"},async(dest,zk,commandeOptions)=>{
 
   const {repondre,msgRepondu,verifGroupe,arg ,verifAdmin , superUser}=commandeOptions;
 
@@ -666,7 +666,7 @@ zokou({nomCom:"hidetag",categorie:'Group',reaction:"🎤"},async(dest,zk,command
         let media  = await zk.downloadAndSaveMediaMessage(msgRepondu.stickerMessage)
 
         let stickerMess = new Sticker(media, {
-          pack: '𝑯𝒂𝒏𝒔-𝒎𝒅',
+          pack: '𝚃𝙸𝙼𝙽𝙰𝚂𝙰-𝙼𝙳',
           type: StickerTypes.CROPPED,
           categories: ["🤩", "🎉"],
           id: "12345",
@@ -732,7 +732,7 @@ zokou({ nomCom: "apk", reaction: "✨", categorie: "Recherche" }, async (dest, z
 
     const downloadLink = appData.dllink;
     const captionText =
-      "『 *𝑯𝒂𝒏𝒔-Md Application* 』\n\n*Name :* " + appData.name +
+      "『 *𝚃𝙸𝙼𝙽𝙰𝚂𝙰-𝙼𝙳 Application* 』\n\n*Name :* " + appData.name +
       "\n*Id :* " + appData["package"] +
       "\n*Last Update :* " + appData.lastup +
       "\n*Size :* " + appData.size +
