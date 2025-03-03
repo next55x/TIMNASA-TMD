@@ -1,6 +1,6 @@
 const axios = require('axios');
 const config = require('../config');
-const { cmd, commands } = require('../command');
+const { framework, zonkou } = require('../framework/zokou');
 const util = require("util");
 const { getAnti, setAnti, initializeAntiDeleteSettings } = require('../data/antidel');
 
