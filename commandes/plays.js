@@ -8,7 +8,7 @@ zokou({
   nomCom: "play1",
   aliases: ["song", "playdoc", "audio", "mp3"],
   categorie: "Search",
-  reaction: "🎶"
+  reaction: "😎"
 }, async (dest, zk, commandOptions) => {
   const { arg, ms, repondre } = commandOptions;
 
@@ -130,7 +130,7 @@ zokou({
   nomCom: "video",
   aliases: ["videodoc", "film", "mp4"],
   categorie: "Search",
-  reaction: "🎥"
+  reaction: "💙"
 }, async (dest, zk, commandOptions) => {
   const { arg, ms, repondre } = commandOptions;
 
@@ -189,7 +189,7 @@ zokou({
 
     // Prepare the message payload with external ad details
     const messagePayloads ={
-           caption: `\n*ɴᴊᴀʙᴜʟᴏ ᴊʙ ᴍᴜsɪᴄ*\n
+           caption: `\n*𝐓𝐈𝐌𝐍𝐀𝐒𝐀 𝐌𝐃 ᴍᴜsɪᴄ*\n
 ╭┈┈┈⊷
 ┊Title: ${songTitle} 
 ┊Quality: High
@@ -202,10 +202,10 @@ zokou({
         mimetype: 'audio/mpeg',
         contextInfo: {
           externalAdReply: {
-            title: "ɴᴊᴀʙᴜʟᴏ ᴊʙ ᴍᴜsɪᴄ" ,
+            title: "𝐓𝐈𝐌𝐍𝐀𝐒𝐀-𝐌𝐔𝐒𝐈𝐂 ᴍᴜsɪᴄ" ,
             body: "ᴛᴀᴘ ʜᴇʀ ᴛᴏ ғᴏʟʟᴏᴡ ᴏᴜʀ ᴄʜᴀɴɴᴇʟ",
             mediaType: 1,
-            sourceUrl:"https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T",
+            sourceUrl:"https://whatsapp.com/channel/0029VajweHxKQuJP6qnjLM31",
             thumbnailUrl: firstVideo.thumbnail,
             renderLargerThumbnail: false,
             showAdAttribution: true,
