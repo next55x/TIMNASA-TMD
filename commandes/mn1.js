@@ -44,14 +44,14 @@ module.exports = async (context) => {
 
       
         menuText += `╭━━━  ⟮  ${botname} ⟯━━━━━━┈⊷\n`;
-          menuText += `┃🤠╭──────────────\n`; 
-        menuText += `┃🤠│ ᴄᴏᴍᴍᴀɴᴅᴇʀ: ${m.pushName}\n`; 
-menuText += `┃🤠│ ᴛᴏᴛᴀʟ ᴘʟᴜɢɪɴs: ${totalCommands}\n`
-        menuText += '┃🤠│ ᴛɪᴍᴇ: ' + getCurrentTimeInNairobi() + '\n';
+          menuText += `┃☠️╭──────────────\n`; 
+        menuText += `┃☠️│ ᴄᴏᴍᴍᴀɴᴅᴇʀ: ${m.pushName}\n`; 
+menuText += `┃☠️│ ᴛᴏᴛᴀʟ ᴘʟᴜɢɪɴs: ${totalCommands}\n`
+        menuText += '┃☠️│ ᴛɪᴍᴇ: ' + getCurrentTimeInNairobi() + '\n';
         menuText += `┃🤠│ ᴘʀᴇғɪx: ${prefix}\n`;
-menuText += `┃🤠│ ᴍᴏᴅᴇ: ${mode}\n`;
-        menuText += '┃🤠│ ʟɪʙʀᴀʀʏ: Baileys\n';
-        menuText += '┃🤠╰──────────────\n';
+menuText += `┃☠️│ ᴍᴏᴅᴇ: ${mode}\n`;
+        menuText += '┃☠️│ ʟɪʙʀᴀʀʏ: Baileys\n';
+        menuText += '┃☠️╰──────────────\n';
         menuText += '╰━━━━━━━━━━━━━━━━━━┈⊷\n';
 
        
@@ -83,14 +83,14 @@ menuText += `┃🤠│ ᴍᴏᴅᴇ: ${mode}\n`;
             for (const file of commandFiles) {
                 const commandName = file.replace('.js', '');
                 const fancyCommandName = toFancyLowercaseFont(commandName);
-                menuText += ` ││◦➛  ${fancyCommandName}\n`;
+                menuText += ` ││◦☠️➛  ${fancyCommandName}\n`;
             }
 
             menuText += ' ╰──────────────┈⊷ \n';
         }
 
         await client.sendMessage(m.chat, {
-            image: { url: "https://files.catbox.moe/ixbkja.jpg" },
+            image: { url: "https://files.catbox.moe/3ijal6.jpg" },
             caption: menuText,
             gifPlayback: true
         }, {
