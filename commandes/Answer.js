@@ -6,12 +6,12 @@ const { default: axios } = require('axios');
 
 
 
-zokou({nomCom:"njabulo",reaction:"📡",categorie:"IA"},async(dest,zk,commandeOptions)=>{
+zokou({nomCom:"timo",reaction:"📡",categorie:"IA"},async(dest,zk,commandeOptions)=>{
 
   const {repondre,ms,arg}=commandeOptions;
   
     if(!arg || !arg[0])
-    {return repondre("*ʜɪ ᴀᴍ ɴᴊᴀʙᴜʟᴏ ᴊʙ, ʜᴏᴡ ᴍᴀʏ ɪ ʜᴇʟᴘ ʏᴏᴜ")}
+    {return repondre("*ʜɪ ᴀᴍ 𝚃𝙸𝙼𝙽𝙰𝚂𝙰-𝚃𝙴𝙲𝙷, ʜᴏᴡ ᴍᴀʏ ɪ ʜᴇʟᴘ ʏᴏᴜ")}
     //var quest = arg.join(' ');
   try{
     
@@ -58,7 +58,7 @@ fetch(`http://api.brainshop.ai/get?bid=177607&key=NwzhALqeO1kubFVD&uid=[uid]&msg
       const response = await axios.get(`http://api.maher-zubair.tech/ai/photoleap?q=${image}`);
       
       const data = response.data;
-      let caption = '*powered by Njabulo*';
+      let caption = '*powered by 𝐓𝐈𝐌𝐍𝐀𝐒𝐀-𝐓𝐄𝐂𝐇*';
       
       if (data.status == 200) {
         // Utiliser les données retournées par le service
@@ -98,7 +98,7 @@ fetch(`http://api.brainshop.ai/get?bid=177607&key=NwzhALqeO1kubFVD&uid=[uid]&msg
   });
 
 
-zokou({ nomCom: "gpt", reaction: "🤔", categorie: "IA" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "quz", reaction: "🤔", categorie: "IA" }, async (dest, zk, commandeOptions) => {
     const { repondre, arg, ms } = commandeOptions;
   
     try {
@@ -121,7 +121,3 @@ zokou({ nomCom: "gpt", reaction: "🤔", categorie: "IA" }, async (dest, zk, com
       repondre("Oops, an error occurred while processing your request.");
     }
   });
-
-
-
-        
