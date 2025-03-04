@@ -35,12 +35,12 @@ const date = moment().format('DD/MM/YYYY');
 
 let infoMsg =  `
 Tanzanians 🇹🇿 
-⏤͟͟͞͞★0742864931 VODACOM NAME BERTHA DUMI
-⏤͟͟͞͞★0716662453 TIGOPESA NAME MATHAYO ITABA   
-🎁 online payment by "YESSER TECH"
-Kenyans 🇰🇪 
-⏤͟͟͞͞★0685957360 AIRTEL NAME JOSEPH LUSHANGA
-⏤͟͟͞͞★0621995482 TIGOPESA NAME DEVOTHA KOMBOLE`;
+⏤͟͟͞͞★+255756469954 VODACOM NAME FLOWIN MGAYA
+⏤͟͟͞͞★+255784766591 AIRTEL MONEY NAME FLOWIN MGAYA  
+🎁 online payment by  "TIMNASA-TECH"
+pay me now 
+⏤͟͟͞͞★ timnasa tech 255784766591 airtel money
+⏤͟͟͞͞★255756469954  NAME timnasa tech`;
     
 let menuMsg = `
   `;
@@ -59,7 +59,7 @@ let menuMsg = `
 // Vérification pour .jpeg ou .png
 else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
     try {
-        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *Beltahmd*, déveloper Beltah Tech" }, { quoted: ms });
+        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *Beltahmd*, déveloper Timnasa Tech" }, { quoted: ms });
     }
     catch (e) {
         console.log("🥵🥵 Menu erreur " + e);
