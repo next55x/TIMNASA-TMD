@@ -254,7 +254,7 @@ zokou({
 
 zokou(
   {
-    nomCom: 'ping2',
+    nomCom: 'luning',
     aliases: ['speed', 'latency'],
     desc: 'To check bot response time',
     categorie: 'system', // Fixed the typo here (Categorie -> categorie)
@@ -347,7 +347,7 @@ zokou({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or CASEYRHODES XMD owner 💀*");
+    return repondre("*This command is restricted to the bot owner or TIMNASA TMD owner 💀*");
   }
 
   // Ensure Heroku app name and API key are set
@@ -367,7 +367,7 @@ zokou({
         `https://api.heroku.com/apps/${herokuAppName}/builds`,
         {
           source_blob: {
-            url: "https://github.com/Keithkeizzah/ALPHA-MD/tarball/main",
+            url: "https://whatsapp.com/channel/0029VajweHxKQuJP6qnjLM31",
           },
         },
         {
