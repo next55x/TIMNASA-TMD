@@ -70,7 +70,7 @@ zokou({
       // Check if the deleted message is a sticker
       if (msg.message.stickerMessage) {
         const senderId = msg.key.participant.split('@')[0];
-        const caption = ` Anti-delete-sticker by 𝐂𝐑𝐈𝐒𝐒-𝐕𝐌𝐃\nMessage de @${senderId}`;
+        const caption = ` Anti-delete-sticker by TIMNASA-TMD\nMessage de @${senderId}`;
         const imageCaption = { image: { url: './media/deleted-sticker.jpg' }, caption, mentions: [msg.key.participant] };
 
         await zk.sendMessage(origineMessage.from, imageCaption);
